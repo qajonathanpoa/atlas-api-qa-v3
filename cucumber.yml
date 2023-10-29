@@ -1,0 +1,11 @@
+---
+default: --publish-quiet -p allure -p bdd -p hlg
+bdd: -f pretty
+dots: -f progress
+html: -f html -o reports/features_report.html
+json: -f json -o reports/cucumber_report.json
+allure: --format AllureCucumber::CucumberFormatter --out=reports
+
+#Environments
+hlg: CONFIG='hlg'
+sit: CONFIG='sit'

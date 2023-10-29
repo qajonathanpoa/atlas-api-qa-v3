@@ -1,0 +1,10 @@
+{
+    "sit": {
+        "sit": "tracking-pdcda-tst",
+        "nps": "atlas-nps-aks-pedidos-online-sit"
+    },
+    "hlg": {
+        "atlasOn": "tracking-pdcda-qa",
+        "nps": "atlas-nps-aks-pedidos-online-hlg"
+    }
+}
